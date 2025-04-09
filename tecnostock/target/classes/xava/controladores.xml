@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE controladores SYSTEM "dtds/controladores.dtd">
+
+<controladores>
+    
+    <!-- Controlador para Cliente -->
+    <controlador nombre="ClienteController">
+        <hereda-de controlador="Module"/>
+        <accion nombre="init" 
+                clase="com.tuempresa.tecnostock.acciones.InitClienteAction" 
+                oculta="true"/>
+    </controlador>
+    
+    <!-- Controlador para Producto -->
+    <controlador nombre="ProductoController">
+        <hereda-de controlador="Module"/>
+        <accion nombre="init" 
+                clase="com.tuempresa.tecnostock.acciones.InitProductoAction" 
+                oculta="true"/>
+    </controlador>
+    
+</controladores>

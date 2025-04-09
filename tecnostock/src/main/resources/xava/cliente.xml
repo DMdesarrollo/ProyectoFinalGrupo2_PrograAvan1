@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<module name="Cliente">
+    <model name="Cliente"/>
+    <controller name="ClienteController"/>
+    <view>
+        <members>
+            id;
+            nombre;
+            apellido;
+            pais;
+        </members>
+    </view>
+</module>
